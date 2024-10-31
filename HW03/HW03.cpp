@@ -183,7 +183,6 @@ int main() {
         cout << "請選擇操作: ";
         cin >> choice;
 
-		// 根據選擇執行相應操作
         switch (choice) {
         case 1: addBook(); break;
         case 2: deleteBook(); break;
